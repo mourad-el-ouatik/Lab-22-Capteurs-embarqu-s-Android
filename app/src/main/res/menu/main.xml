@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />\
+
+    <item
+    android:id="@+id/menu_accelerometer"
+    android:title="Accéléromètre" />
+
+    <item
+        android:id="@+id/menu_gravity"
+        android:title="Gravité" />
+
+    <item
+        android:id="@+id/menu_gyroscope"
+        android:title="Gyroscope" />
+
+    <item
+        android:id="@+id/menu_steps"
+        android:title="Compteur de pas" />
+
+    <item
+        android:id="@+id/menu_compass"
+        android:title="Boussole" />
+
+    <item
+        android:id="@+id/menu_activity"
+        android:title="Reconnaissance d’activité" />
+
+</menu>
